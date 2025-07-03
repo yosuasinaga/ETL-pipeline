@@ -15,16 +15,15 @@ Proyek ETL (Extract, Transform, Load) berbasis Python yang dirancang untuk mengo
 ```
 etl-pipeline/
 │
-├── extract/        # Skrip untuk ekstraksi data
-├── transform/      # Skrip transformasi data
-├── load/           # Skrip pemuatan data
-├── utils/          # Fungsi utilitas dan helper
-├── config/         # File konfigurasi
-├── main.py         # Titik masuk utama menjalankan proses ETL
-└── README.md       # Dokumentasi proyek
+├── tests/ # Folder untuk pengujian unit
+├── utils/ # Folder untuk fungsi utilitas
+├── .gitignore # Mengabaikan file atau direktori tertentu dalam repositori
+├── README.md # Deskripsi proyek
+├── main.py # Skrip utama untuk pipeline ETL
+├── products.csv # Dataset produk yang diproses
+├── requirements.txt # Daftar dependensi proyek
+└── submission.txt # Instruksi atau dokumentasi proyek
 ```
-
-*Catatan: Struktur direktori di atas adalah contoh. Modul dan file aktual dapat bervariasi.*
 
 ## Memulai
 
